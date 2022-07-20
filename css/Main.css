@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+  :root{
+    --mainBackground:#f6f6f6;
+    --mainColor:#000;
+    --seColor:#03a9f4;
+    --seBackground:#fff;
+    --mainPadding:50px 100px;
+  }
+  header{
+    background-color:var(--seBackground);
+    display:flex;
+    justify-content:space-between;
+    padding:10px 215px;
+  }
+  a{
+    text-decoration:none;
+    color:var(--mainColor);
+    margin-left:10px;
+  }
+  .first{
+    padding:var(--mainPadding);
+    text-align:center; 
+    background-color:
+    var(--mainBackground);
+  }
+  .first span{
+    color:var(--seColor);
+  }
+  .first p{
+    margin:0 100px;
+  }
+  .img-sizing{
+    width: 100px;
+  }
+  /* the-second-customizing */
+  .second{
+      display: flex;
+      justify-content: space-between;
+      margin:0 200px;
+  }
+  .second div{
+    text-align: center;
+    width:30%;
+  }
+  .second div p{
+      color:#9e9d9b;
+      margin-top:10px;
+      text-align:left ;
+  }
+  /* third-customizing */
+  .third{
+      background-color: var(--mainBackground);
+      display: flex;
+      justify-content:space-between;
+  }
+  .third img{
+    margin: 45px 28px 0 200px;
+    width: 450px;
+    height: 435px;
+}
+  .third div{
+    margin: 65px 200px 0 0;
+  }
+  .third div p{
+    margin: 25px 0 0 0;
+    line-height: 2;
+  }
+  /* the-fourth-cus*/
+  .fourth{
+    margin:40px 200px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .fourth div{
+    width:32%;
+    height: 125px;
+    color:white;
+    text-align: center;
+    padding: 15px;
+  }
+  .fourth div h2{
+    font-size: 50px;
+  }
+  /* final-cus */
+  .final{
+    background-color: var(--mainBackground);
+    padding:40px 0;
+  }
+  .final .container{
+    width:1030px;
+    background-color: white;
+    height: 40px;
+  }
+  .bar{
+    background-color: var(--seColor);
+    text-align: right;
+    height: 40px;
+    color:white;
+    padding:10px;
+    font-weight: bold;
+  }
+  .final .M-container{
+    margin: 0 410px 0 290px; 
+    padding-top: 20px;
+  }
+  .final div p{
+    position: absolute;
+    left:210px;
+    margin-top: 10px;
+  }
+  /* S-bar  */
+  .html{
+    width:60%;
+  }
+  .css{
+    width:70%;
+  }
+  .Javascript{
+    width:80%;
+  }
+  .PHP{
+    width: 65%;
+  }
+  .Python{
+    width:90%;
+  }
+/* footer */
+footer{
+  background-color: #333;
+  color:white;
+  padding:10px 200px;
+  display:flex;
+  justify-content: space-between;
+}
+footer div span{
+  color:var(--seColor);
+}
